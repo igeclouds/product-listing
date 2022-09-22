@@ -12,6 +12,7 @@ import { getConfig } from '../tools/getConfig';
 import { useColorTheme } from '../tools/color';
 import Layout from '../components/layout/Layout';
 import { dashboardNamespaces } from '../tools/translation-namespaces';
+import IntroComponent from '../components/Intro/IntroWrapper';
 
 export async function getServerSideProps({
   req,
@@ -49,6 +50,7 @@ export default function HomePage(props: any) {
   }, [initialConfig]);
   return (
     <Layout>
+      <IntroComponent />
       <AppShelf />
       <LoadConfigComponent />
     </Layout>
