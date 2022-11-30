@@ -36,17 +36,11 @@ export function useConfig() {
 
 type Props = {
   children: ReactNode;
+  defaultConfig: Config;
 };
 
-export function ConfigProvider({ children }: Props) {
-  const [config, setConfigInternal] = useState<Config>({
-    name: 'default',
-    services: [],
-    settings: {
-      searchUrl: 'https://www.google.com/search?q=',
-    },
-    modules: {},
-  });
+export function ConfigProvider({ children, defaultConfig }: Props) {
+  const [config, setConfigInternal] = useState<Config>(defaultConfig);
 
   async function loadConfig(configName: string) {
     try {

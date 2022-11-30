@@ -1,5 +1,14 @@
 import React from 'react';
-import { PasswordInput, Paper, Title, Text, Container, Group, Button } from '@mantine/core';
+import {
+  PasswordInput,
+  Paper,
+  Title,
+  Text,
+  Container,
+  Group,
+  Button,
+  TextInput,
+} from '@mantine/core';
 import { setCookie } from 'cookies-next';
 import { showNotification, updateNotification } from '@mantine/notifications';
 import axios from 'axios';
@@ -8,7 +17,7 @@ import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import { useForm } from '@mantine/form';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import { prisma } from '../../db';
+import { Prisma } from '@prisma/client';
 import { loginNamespaces } from '../tools/translation-namespaces';
 
 // TODO: Add links to the wiki articles about the login process.
@@ -113,19 +122,16 @@ export default function AuthenticationTitle() {
           </Button>
         </form>
       </Paper>
+      <TextInput id="name">Config name</TextInput>
       <Button
         onClick={() => {
-          axios
-            .post('/api/database/user', {
-              email: 'mail4@gmail.com',
-              name: 'name3',
-            })
-            .then((res) => {
-              showNotification({
-                title: 'User created',
-                message: `User ${res.data.user} has been created`,
-              });
+          // Use the TextInput value to create a new config
+          axios.post('/api/database/user', newUser).then((res) => {
+            showNotification({
+              title: 'User created',
+              message: `User ${res.data} has been created`,
             });
+          });
         }}
       >
         Add user

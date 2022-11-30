@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import { useConfig } from '../../tools/state';
 
 export default function ConfigChanger() {
-  const { config, loadConfig, setConfig, getConfigs } = useConfig();
+  const { config, loadConfig, getConfigs } = useConfig();
   const [configList, setConfigList] = useState<string[]>([]);
   const [value, setValue] = useState(config.name);
   const { t } = useTranslation('settings/general/config-changer');

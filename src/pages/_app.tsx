@@ -76,9 +76,7 @@ function App(this: any, props: AppProps & { colorScheme: ColorScheme }) {
             >
               <NotificationsProvider limit={4} position="bottom-left">
                 <ModalsProvider>
-                  <ConfigProvider>
-                    <Component {...pageProps} />
-                  </ConfigProvider>
+                  <Component {...pageProps} />
                 </ModalsProvider>
               </NotificationsProvider>
             </MantineProvider>

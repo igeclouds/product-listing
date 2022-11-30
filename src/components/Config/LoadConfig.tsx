@@ -6,7 +6,6 @@ import { Dropzone } from '@mantine/dropzone';
 import { useTranslation } from 'next-i18next';
 import { useConfig } from '../../tools/state';
 import { Config } from '../../tools/types';
-import { migrateToIdConfig } from '../../tools/migrate';
 
 export default function LoadConfigComponent(props: any) {
   const { setConfig } = useConfig();
@@ -48,8 +47,7 @@ export default function LoadConfigComponent(props: any) {
             maxAge: 60 * 60 * 24 * 30,
             sameSite: 'strict',
           });
-          const migratedConfig = migrateToIdConfig(newConfig);
-          setConfig(migratedConfig);
+          setConfig(newConfig);
         });
       }}
       accept={['application/json']}
