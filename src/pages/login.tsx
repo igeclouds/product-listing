@@ -115,12 +115,3 @@ export default function AuthenticationTitle() {
     </Container>
   );
 }
-
-export async function getServerSideProps({ locale }: { locale: string }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, loginNamespaces)),
-      // Will be passed to the page component as props
-    },
-  };
-}

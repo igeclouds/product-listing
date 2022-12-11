@@ -3,14 +3,14 @@ import * as React from 'react';
 import { useColorTheme } from '../../tools/color';
 import { useConfig } from '../../tools/state';
 
-export function Logo({ style, withoutText }: any) {
+export function Logo({ style, withoutText, size }: any) {
   const { config } = useConfig();
   const { primaryColor, secondaryColor } = useColorTheme();
 
   return (
     <Group spacing="xs" noWrap>
       <Image
-        width={50}
+        width={size ?? 50}
         src={config.settings.logo || '/imgs/logo/logo.png'}
         style={{
           position: 'relative',

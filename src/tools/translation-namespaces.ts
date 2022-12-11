@@ -31,3 +31,5 @@ export const dashboardNamespaces = [
 ];
 
 export const loginNamespaces = ['authentication/login'];
+
+export const welcomeNamespaces = ['welcome', 'common'];
