@@ -29,11 +29,11 @@ export const useNamedWrapperColumnCount = (): 'small' | 'medium' | 'large' | nul
 export const useWrapperColumnCount = () => {
   switch (useNamedWrapperColumnCount()) {
     case 'large':
-      return 12;
+      return 24;
     case 'medium':
-      return 6;
+      return 12;
     case 'small':
-      return 3;
+      return 6;
     default:
       return null;
   }
