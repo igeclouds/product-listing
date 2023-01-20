@@ -16,7 +16,13 @@ export const DashboardSidebar = ({ location, isGridstackReady }: DashboardSideba
   } = useCardStyles(true);
 
   return (
-    <Card p={0} m={0} radius="lg" className={cardClass} withBorder>
+    <Card
+      p={0}
+      m={0}
+      radius="lg"
+      className={cardClass}
+      withBorder
+    >
       {isGridstackReady && <SidebarInner location={location} />}
     </Card>
   );
@@ -43,7 +49,7 @@ const SidebarInner = ({ location }: DashboardSidebarInnerProps) => {
       style={{
         transitionDuration: '0s',
         minWidth: 256,
-        height: '100%',
+        minHeight: 300,
         width: '100%',
       }}
       data-sidebar={location}
