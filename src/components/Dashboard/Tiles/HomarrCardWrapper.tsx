@@ -23,6 +23,8 @@ export const HomarrCardWrapper = ({ ...props }: HomarrCardWrapperProps) => {
       style={{ cursor: isEditMode ? 'move' : 'default' }}
       radius="lg"
       shadow="sm"
-    />
+    >
+      {props.children}
+    </Card>
   );
 };

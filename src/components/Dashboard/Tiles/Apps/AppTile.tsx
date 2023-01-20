@@ -1,7 +1,8 @@
-import { Center, Text, UnstyledButton } from '@mantine/core';
+import { Box, Center, Stack, Text, Title, Tooltip, UnstyledButton } from '@mantine/core';
 import { NextLink } from '@mantine/next';
 import { createStyles } from '@mantine/styles';
 import { motion } from 'framer-motion';
+import React from 'react';
 import { AppType } from '../../../../types/app';
 import { useCardStyles } from '../../../layout/useCardStyles';
 import { useEditModeStore } from '../../Views/useEditModeStore';
@@ -26,23 +27,36 @@ export const AppTile = ({ className, app }: AppTileProps) => {
   function Inner() {
     return (
       <>
-        <Text align="center" weight={500} size="md" className={classes.appName}>
-          {app.name}
-        </Text>
-        <Center style={{ height: '85%', flex: 1, width: '85%' }}>
+        <Stack
+          m={0}
+          p={0}
+          spacing="xs"
+          justify="center"
+          align="center"
+          style={{ height: '100%', width: '100%' }}
+        >
+          <Box hidden={true}>
+            <Title order={5} size="md" ta="center" lineClamp={1} className={classes.appName}>
+              {app.name}
+            </Title>
+          </Box>
           <motion.img
             className={classes.image}
+            height="85%"
+            width="85%"
+            style={{
+              // Center the image in the middle of the div
+              objectFit: 'contain',
+              objectPosition: 'center',
+            }}
             src={app.appearance.iconUrl}
             alt={app.name}
             whileHover={{
               scale: 1.2,
               transition: { duration: 0.2 },
             }}
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 0.3 }}
           />
-        </Center>
+        </Stack>
       </>
     );
   }
@@ -76,8 +90,8 @@ export const AppTile = ({ className, app }: AppTileProps) => {
 const useStyles = createStyles((theme, _params, getRef) => ({
   image: {
     ref: getRef('image'),
-    maxHeight: '90%',
-    maxWidth: '90%',
+    maxHeight: '100%',
+    maxWidth: '100%',
   },
   appName: {
     ref: getRef('appName'),
