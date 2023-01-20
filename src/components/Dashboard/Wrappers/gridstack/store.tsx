@@ -33,7 +33,7 @@ export const useWrapperColumnCount = () => {
     case 'medium':
       return 12;
     case 'small':
-      return 6;
+      return 4;
     default:
       return null;
   }
