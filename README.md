@@ -15,7 +15,7 @@
 <img title="Translations" src="https://badges.crowdin.net/homarr/localized.svg" />
 </a>
 <a href="https://discord.gg/aCsmEV5RgA">
-  <img title="Discord" src="https://discordapp.com/api/guilds/972958686051962910/widget.png?style=shield">
+  <img title="Community" src="https://discordapp.com/api/guilds/972958686051962910/widget.png?style=shield">
 </a>
 </p>
 
