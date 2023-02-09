@@ -1,11 +1,11 @@
 
 <!-- Project Title -->
-<h1 align="center">Homarr</h1>
+<h1 align="center">IGE DASHBOARDS</h1>
 
 <!-- Badges -->
 <p align="center">
-<img src="https://img.shields.io/github/stars/ajnart/homarr?label=%E2%AD%90%20Stars&style=flat-square?branch=master&kill_cache=1%22">
-<a href="https://github.com/ajnart/homarr/releases/latest">
+<img src="https://img.shields.io/github/stars/igeclouds/Dashboards?label=%E2%AD%90%20Stars&style=flat-square?branch=master&kill_cache=1%22">
+<a href="https://github.com/igeclouds/Dashboards/releases/latest">
   <img alt="Latest Release (Semver)" src="https://img.shields.io/github/v/release/ajnart/homarr?label=%F0%9F%9A%80%20Release">
 </a>
 <a href="https://github.com/ajnart/homarr/actions/workflows/docker.yml">
