@@ -1,6 +1,6 @@
 
 <!-- Project Title -->
-<h1 align="center">Homarr</h1>
+<h1 align="center">DASHBOARDS</h1>
 
 <!-- Badges -->
 <p align="center">
@@ -107,7 +107,7 @@ _Requirements_:
 
 All contributions are highly appreciated.
 
-**[⤴️ Back to Top](#homarr)**
+**[⤴️ Back to Top](#DASHBOARDS)**
 
 ---
 
@@ -142,7 +142,7 @@ SOFTWARE.
 ---
 
 <p align="center">
-  <i>Thank you for visiting! <b>For more information <a href="https://homarr.dev">read the documentation!</a></b></i>
+  <i>Thank you for visiting! <b>For more information <a href="https://clientservices.igecloud.com">read the documentation!</a></b></i>
   <br/>
   <br/>
 </p>
