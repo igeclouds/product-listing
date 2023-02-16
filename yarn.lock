@@ -1114,17 +1114,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/carousel@npm:^5.9.3":
-  version: 5.9.3
-  resolution: "@mantine/carousel@npm:5.9.3"
+"@mantine/carousel@npm:^5.10.2":
+  version: 5.10.4
+  resolution: "@mantine/carousel@npm:5.10.4"
   dependencies:
-    "@mantine/utils": 5.9.3
+    "@mantine/utils": 5.10.4
   peerDependencies:
-    "@mantine/core": 5.9.3
-    "@mantine/hooks": 5.9.3
+    "@mantine/core": 5.10.4
+    "@mantine/hooks": 5.10.4
     embla-carousel-react: ^7.0.0
     react: ">=16.8.0"
-  checksum: 4c64a170d3dacfe94c2bfdd40f21f2eeb48e91df4fcfe4b06c0990a19ec787d36bb9c7eaf83632aead451e1f45e438144a484e50d5ccd5a3314e61c9169d5a2e
+  checksum: dba7e4cd1b5497680881be93861a46c78d87c957cdbc73aa0e6b652d8a1642d8624ea4b1911261b39f9a001263dad804ea9b9b6a6134e6d6ad42a614370cb654
   languageName: node
   linkType: hard
 
@@ -1279,6 +1279,15 @@ __metadata:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
   checksum: 8ba6db16ecc62d5c5128b4e72b6ce8358b4dd3ef89e53b7deaa510d1d7289641b39b1cff2551c00d66791b41e33e6e5d8f213a37d4d10b006fa7329e3c0e31d5
+  languageName: node
+  linkType: hard
+
+"@mantine/utils@npm:5.10.4":
+  version: 5.10.4
+  resolution: "@mantine/utils@npm:5.10.4"
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: 96e2602f8500c29b5979d4fe0b3456c8de911ff1bd2ef216d960b23a5370ff6828871aa859538a4004ad095fb63d7e0e76cdfb365bdb930f70f8076d730302c1
   languageName: node
   linkType: hard
 
@@ -4900,7 +4909,7 @@ __metadata:
     "@dnd-kit/utilities": ^3.2.0
     "@emotion/react": ^11.10.5
     "@emotion/server": ^11.10.0
-    "@mantine/carousel": ^5.9.3
+    "@mantine/carousel": ^5.10.2
     "@mantine/core": ^5.9.3
     "@mantine/dates": ^5.9.3
     "@mantine/dropzone": ^5.9.3
@@ -8338,7 +8347,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.7.4#~builtin<compat/typescript>":
   version: 4.9.4
-  resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=7ad353"
+  resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
