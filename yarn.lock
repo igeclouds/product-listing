@@ -1145,17 +1145,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/dates@npm:^5.9.3":
-  version: 5.9.3
-  resolution: "@mantine/dates@npm:5.9.3"
+"@mantine/dates@npm:^5.10.5":
+  version: 5.10.5
+  resolution: "@mantine/dates@npm:5.10.5"
   dependencies:
-    "@mantine/utils": 5.9.3
+    "@mantine/utils": 5.10.5
   peerDependencies:
-    "@mantine/core": 5.9.3
-    "@mantine/hooks": 5.9.3
+    "@mantine/core": 5.10.5
+    "@mantine/hooks": 5.10.5
     dayjs: ">=1.0.0"
     react: ">=16.8.0"
-  checksum: fc7c8d19ab10c1d997a882debae74f21fa3a2a59ee834b901713e5ddd9feba7197f61fb68a9a27794071d83d7690564fc45793a6966eebf5f55dff368f837aee
+  checksum: 7c50000388a671f687850ede28ab91c9c9d1f6881eb432e2fc348ce7287c3938e830447925eaf3b5065da9751823be7004c6fa97e9e8e2c6f727c1df98ee524b
   languageName: node
   linkType: hard
 
@@ -1279,6 +1279,15 @@ __metadata:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
   checksum: 8ba6db16ecc62d5c5128b4e72b6ce8358b4dd3ef89e53b7deaa510d1d7289641b39b1cff2551c00d66791b41e33e6e5d8f213a37d4d10b006fa7329e3c0e31d5
+  languageName: node
+  linkType: hard
+
+"@mantine/utils@npm:5.10.5":
+  version: 5.10.5
+  resolution: "@mantine/utils@npm:5.10.5"
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: fe8975a2cffb0493e9c226f2dd7d56473250806e56bdc7843c8f6cd1c8ce90d42daf3d33a31a91ec71bca3a584d8adb3fb5b805639c0f242d1d2f8887e9dd56d
   languageName: node
   linkType: hard
 
@@ -4902,7 +4911,7 @@ __metadata:
     "@emotion/server": ^11.10.0
     "@mantine/carousel": ^5.9.3
     "@mantine/core": ^5.9.3
-    "@mantine/dates": ^5.9.3
+    "@mantine/dates": ^5.10.5
     "@mantine/dropzone": ^5.9.3
     "@mantine/form": ^5.9.3
     "@mantine/hooks": ^5.9.3
@@ -8338,7 +8347,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.7.4#~builtin<compat/typescript>":
   version: 4.9.4
-  resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=7ad353"
+  resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
