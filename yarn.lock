@@ -4958,7 +4958,7 @@ __metadata:
     sabnzbd-api: ^1.5.0
     sass: ^1.56.1
     sharp: ^0.30.7
-    systeminformation: ^5.12.1
+    systeminformation: ^5.18.7
     typescript: ^4.7.4
     uuid: ^8.3.2
     yarn: ^1.22.19
@@ -8088,12 +8088,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"systeminformation@npm:^5.12.1":
-  version: 5.16.5
-  resolution: "systeminformation@npm:5.16.5"
+"systeminformation@npm:^5.18.7":
+  version: 5.18.14
+  resolution: "systeminformation@npm:5.18.14"
   bin:
     systeminformation: lib/cli.js
-  checksum: 33cf64eca686358db8d38b17939f33656197678a37f401b916d7509c1d84e9f5389c29570bf94dc1a97e274617e6ff90dc36515a98541aca6f72703200bb718a
+  checksum: d6ae6a347cb4023abea3d9ed75494d04f7d63901b28303fb52dcb67786eaf13de86fbc9c334c4384c21da27082db2fdbdd9f68d4a63f0f216fb43c76843ebb0d
   conditions: (os=darwin | os=linux | os=win32 | os=freebsd | os=openbsd | os=netbsd | os=sunos | os=android)
   languageName: node
   linkType: hard
@@ -8338,7 +8338,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.7.4#~builtin<compat/typescript>":
   version: 4.9.4
-  resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=7ad353"
+  resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
