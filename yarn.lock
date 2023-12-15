@@ -1114,17 +1114,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/carousel@npm:^5.9.3":
-  version: 5.9.3
-  resolution: "@mantine/carousel@npm:5.9.3"
+"@mantine/carousel@npm:^5.10.5":
+  version: 5.10.5
+  resolution: "@mantine/carousel@npm:5.10.5"
   dependencies:
-    "@mantine/utils": 5.9.3
+    "@mantine/utils": 5.10.5
   peerDependencies:
-    "@mantine/core": 5.9.3
-    "@mantine/hooks": 5.9.3
+    "@mantine/core": 5.10.5
+    "@mantine/hooks": 5.10.5
     embla-carousel-react: ^7.0.0
     react: ">=16.8.0"
-  checksum: 4c64a170d3dacfe94c2bfdd40f21f2eeb48e91df4fcfe4b06c0990a19ec787d36bb9c7eaf83632aead451e1f45e438144a484e50d5ccd5a3314e61c9169d5a2e
+  checksum: 6600ba37f495577ff14388ad16bbb72a4e92e34e7901dd3d38bc93eb0cf878fefeff0cdce414970699ea0cba9cd9a75924e435d17a481ca37f949f4f0bd950a8
   languageName: node
   linkType: hard
 
@@ -1279,6 +1279,15 @@ __metadata:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
   checksum: 8ba6db16ecc62d5c5128b4e72b6ce8358b4dd3ef89e53b7deaa510d1d7289641b39b1cff2551c00d66791b41e33e6e5d8f213a37d4d10b006fa7329e3c0e31d5
+  languageName: node
+  linkType: hard
+
+"@mantine/utils@npm:5.10.5":
+  version: 5.10.5
+  resolution: "@mantine/utils@npm:5.10.5"
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: fe8975a2cffb0493e9c226f2dd7d56473250806e56bdc7843c8f6cd1c8ce90d42daf3d33a31a91ec71bca3a584d8adb3fb5b805639c0f242d1d2f8887e9dd56d
   languageName: node
   linkType: hard
 
@@ -4907,7 +4916,7 @@ __metadata:
     "@dnd-kit/utilities": ^3.2.0
     "@emotion/react": ^11.10.5
     "@emotion/server": ^11.10.0
-    "@mantine/carousel": ^5.9.3
+    "@mantine/carousel": ^5.10.5
     "@mantine/core": ^5.9.3
     "@mantine/dates": ^5.9.3
     "@mantine/dropzone": ^5.9.3
