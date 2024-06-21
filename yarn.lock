@@ -4965,7 +4965,7 @@ __metadata:
     sabnzbd-api: ^1.5.0
     sass: ^1.56.1
     sharp: ^0.30.7
-    systeminformation: ^5.12.1
+    systeminformation: ^5.22.10
     typescript: ^4.7.4
     uuid: ^8.3.2
     yarn: ^1.22.19
@@ -8095,12 +8095,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"systeminformation@npm:^5.12.1":
-  version: 5.16.5
-  resolution: "systeminformation@npm:5.16.5"
+"systeminformation@npm:^5.22.10":
+  version: 5.22.11
+  resolution: "systeminformation@npm:5.22.11"
   bin:
     systeminformation: lib/cli.js
-  checksum: 33cf64eca686358db8d38b17939f33656197678a37f401b916d7509c1d84e9f5389c29570bf94dc1a97e274617e6ff90dc36515a98541aca6f72703200bb718a
+  checksum: 5e924a87ecd5453225456191c5a9201d763a59e905a45a4e1d4e99b98b69fed25d33e756ad8f9fef1f513259778cbcfd4cbba48b208f7f9c87db9cb97d1eabe7
   conditions: (os=darwin | os=linux | os=win32 | os=freebsd | os=openbsd | os=netbsd | os=sunos | os=android)
   languageName: node
   linkType: hard
