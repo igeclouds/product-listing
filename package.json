@@ -70,7 +70,7 @@
     "systeminformation": "^5.23.2",
     "uuid": "^8.3.2",
     "yarn": "^1.22.19",
-    "zustand": "^4.1.4"
+    "zustand": "^4.3.9"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^12.1.4",
