@@ -4969,7 +4969,7 @@ __metadata:
     typescript: ^4.7.4
     uuid: ^8.3.2
     yarn: ^1.22.19
-    zustand: ^4.1.4
+    zustand: ^4.4.0
   languageName: unknown
   linkType: soft
 
@@ -8719,19 +8719,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zustand@npm:^4.1.4":
-  version: 4.1.5
-  resolution: "zustand@npm:4.1.5"
+"zustand@npm:^4.4.0":
+  version: 4.4.1
+  resolution: "zustand@npm:4.4.1"
   dependencies:
     use-sync-external-store: 1.2.0
   peerDependencies:
+    "@types/react": ">=16.8"
     immer: ">=9.0"
     react: ">=16.8"
   peerDependenciesMeta:
+    "@types/react":
+      optional: true
     immer:
       optional: true
     react:
       optional: true
-  checksum: 13190ee8e8a797c5347b525a7c392be62b2addacdd9645dd20d37ea053f96c7c7067c099c6201e98ebb8d54991f2e04e241cc323f9a25b841d44f0ae048e3afc
+  checksum: 80acd0fbf633782996642802c8692bbb80ae5c80a8dff4c501b88250acd5ccd468fbc6398bdce198475a25e3839c91385b81da921274f33ffb5c2d08c3eab400
   languageName: node
   linkType: hard
