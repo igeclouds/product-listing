@@ -29,7 +29,7 @@
     "@ctrl/transmission": "^4.1.1",
     "@dnd-kit/core": "^6.0.5",
     "@dnd-kit/sortable": "^7.0.1",
-    "@dnd-kit/utilities": "^3.2.0",
+    "@dnd-kit/utilities": "^3.2.2",
     "@emotion/react": "^11.10.5",
     "@emotion/server": "^11.10.0",
     "@mantine/carousel": "^5.9.3",
