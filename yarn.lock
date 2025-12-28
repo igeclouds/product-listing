@@ -1209,17 +1209,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/next@npm:^5.9.3":
-  version: 5.9.3
-  resolution: "@mantine/next@npm:5.9.3"
+"@mantine/next@npm:^5.10.5":
+  version: 5.10.5
+  resolution: "@mantine/next@npm:5.10.5"
   dependencies:
-    "@mantine/ssr": 5.9.3
-    "@mantine/styles": 5.9.3
+    "@mantine/ssr": 5.10.5
+    "@mantine/styles": 5.10.5
   peerDependencies:
     next: "*"
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 336cdf9732f64202498b33f725bdf51e27eb3b322e8176b7d7427fb595689e26049d3ebb775ba65882619f4048ed1a8bdca17893bdd560ab65c76551de016f21
+  checksum: 767caba05493f65929e44a95da851a50d9ba104b188f807e98a376aa84ec7d45860163f6b356bad7f5fb3d35fe27e48125fc543de2c1457bf11ba4b5f8ef458b
   languageName: node
   linkType: hard
 
@@ -1253,18 +1253,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/ssr@npm:5.9.3":
-  version: 5.9.3
-  resolution: "@mantine/ssr@npm:5.9.3"
+"@mantine/ssr@npm:5.10.5":
+  version: 5.10.5
+  resolution: "@mantine/ssr@npm:5.10.5"
   dependencies:
-    "@mantine/styles": 5.9.3
+    "@mantine/styles": 5.10.5
     html-react-parser: 1.4.12
   peerDependencies:
     "@emotion/react": ">=11.9.0"
     "@emotion/server": ">=11.4.0"
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 44cc9f8d1ae122c563251be2e50f175dd61b85dda5354d68a66870ebd49b21b593b061d79245954d02fd8ad736e3cf6590e4dff5a177ec74d5498401178ce800
+  checksum: 34058994cc207fd83e3b1e7ba5c6da76ce495fe45134fe9d31ed64a0201e4f1ce9100a26ededb3e50f1082c0c4b8d0c28d3235c64f27695b1a7948c75ad9b869
+  languageName: node
+  linkType: hard
+
+"@mantine/styles@npm:5.10.5":
+  version: 5.10.5
+  resolution: "@mantine/styles@npm:5.10.5"
+  dependencies:
+    clsx: 1.1.1
+    csstype: 3.0.9
+  peerDependencies:
+    "@emotion/react": ">=11.9.0"
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: 7c7322779e21681a58c80dddfb30a9ce5cfecfa0854bc35921533ebe8fb101199f9626cd38bfa2dea31e9d7ffc5a25e2005c62a5feaf3cb766b540c480a449da
   languageName: node
   linkType: hard
 
@@ -4914,7 +4928,7 @@ __metadata:
     "@mantine/form": ^5.9.3
     "@mantine/hooks": ^5.9.3
     "@mantine/modals": ^5.9.3
-    "@mantine/next": ^5.9.3
+    "@mantine/next": ^5.10.5
     "@mantine/notifications": ^5.9.3
     "@mantine/prism": ^5.9.3
     "@next/bundle-analyzer": ^12.1.4
